@@ -13,7 +13,7 @@ It seemed to be part of the airport's internal TV media. That bluish style was b
 
 After returning from the trip, I decided to write it in Javascript using SVG.js lib (http://svgjs.com/). 
 
-See the result: http://vhiroki.github.io/gru-airport
+See the result: https://vhiroki.github.io/gru-clock
 
 ## Contributing
 
