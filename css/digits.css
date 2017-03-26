@@ -1,0 +1,59 @@
+.pixel .triangle {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+}
+.pixel .triangle.selected {
+  fill: red;
+}
+.pixel .triangle.active {
+  opacity: 0.75;
+}
+.pixel .triangle.top {
+  -webkit-transform-origin: 0% 0%;
+  transform-origin: 0% 0%;
+  -webkit-transform: rotateX(-90deg);
+  transform: rotateX(-90deg);
+  -webkit-transition-delay: 0s ;
+  transition-delay: 0s;
+}
+.pixel .triangle.top.active {
+  -webkit-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+}
+.pixel .triangle.right {
+  -webkit-transform-origin: 100% 100%;
+  transform-origin: 100% 100%;
+  -webkit-transform: rotateY(90deg);
+  transform: rotateY(90deg);
+  -webkit-transition-delay: 0.2s ;
+  transition-delay: 0.2s;
+}
+.pixel .triangle.right.active {
+  -webkit-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+}
+.pixel .triangle.bottom {
+  -webkit-transform-origin: 100% 100%;
+  transform-origin: 100% 100%;
+  -webkit-transform: rotateX(90deg);
+  transform: rotateX(90deg);
+  -webkit-transition-delay: 0.4s ;
+  transition-delay: 0.4s;
+}
+.pixel .triangle.bottom.active {
+  -webkit-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+}
+.pixel .triangle.left {
+  -webkit-transform-origin: 0% 0%;
+  transform-origin: 0% 0%;
+  -webkit-transform: rotateY(-90deg);
+  transform: rotateY(-90deg);
+  -webkit-transition-delay: 0.6s ;
+  transition-delay: 0.6s;
+}
+.pixel .triangle.left.active {
+  -webkit-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+}

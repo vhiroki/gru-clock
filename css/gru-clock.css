@@ -1,0 +1,33 @@
+.gru-clock-placeholder {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 800px;
+  margin-left: -400px;
+}
+@media (min-width: 1300px) {
+  .gru-clock-placeholder {
+    width: 1200px;
+    margin-left: -600px;
+  }
+}
+.gru-clock .pixel.beat .triangle {
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+.gru-clock .pixel.beat .triangle.top {
+  -webkit-transition-delay: 0s ;
+  transition-delay: 0s;
+}
+.gru-clock .pixel.beat .triangle.right {
+  -webkit-transition-delay: 0s ;
+  transition-delay: 0s;
+}
+.gru-clock .pixel.beat .triangle.bottom {
+  -webkit-transition-delay: 0s ;
+  transition-delay: 0s;
+}
+.gru-clock .pixel.beat .triangle.left {
+  -webkit-transition-delay: 0s ;
+  transition-delay: 0s;
+}

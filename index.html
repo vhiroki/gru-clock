@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>SVG Clock</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/digits.css" />
+    <link rel="stylesheet" href="./css/gru-clock.css" />
+</head>
+<body>
+    <div id="myclock" class="gru-clock-placeholder"></div>
+
+    <script src="./vendor/svg.min.js"></script>
+    <script src="./js/digits.js"></script>
+    <script src="./js/gru-clock.js"></script>
+    <script>
+        window.onload = function () {
+            var clock = new GruClock('myclock');
+            console.log(clock);
+        };
+    </script>
+</body>
+</html>
